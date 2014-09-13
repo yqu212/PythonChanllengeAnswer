@@ -1,6 +1,6 @@
 import re
 
-txt = open("d:\desktop\data.txt")
+txt = open("data.txt")
 pattern = re.compile(r"[a-z][A-Z]{3}[a-z][A-Z]{3}[a-z]")
 s = ""
 for line in txt:
